@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>my page</title>
+<style>
+
+* {
+  box-sizing: border-box; 
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+#item1 {
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 50%;
+  float: right;
+  background-color: #ff8080;
+  text-align: center;
+}
+
+#item2 {
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 50%;
+  float: right;
+  background-color: #990000;
+  text-align: center;
+}
+
+#item3 {
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 50%;
+  float: right;
+  background-color: #ffe066;
+  text-align: center;
+}
+
+#box1 {
+  background-color: gray;
+  border: 1px solid black;
+  font-family: Papyrus;
+  margin: 5px;
+  float: left;  
+}
+
+#box2 {
+  background-color: gray;
+  border: 1px solid black;
+  font-family: Papyrus;
+  margin: 5px;
+  float: left;
+}
+
+#box3 {
+  background-color: gray;
+  border: 1px solid black;
+  font-family: Papyrus;
+  margin: 5px;
+  float: left;
+}
+
+p {
+  text-align: left;
+  padding: 10px;
+  clear: both;
+  font-size: 15px;
+  font-family: Lucida Handwriting;
+}
+
+@media (min-width: 992px) {
+.col-lg-4,.col-lg-6,.col-lg-12 {
+float: left;
+}
+.col-lg-4 {
+    width: 33.33%;
+  }
+.col-lg-6 {
+    width: 50%;
+  }
+.col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-4,.col-md-6,.col-md-12 {
+float: left;
+}
+.col-md-4 {
+    width: 33.33%;
+  }
+.col-md-6 {
+    width: 50%;
+  }
+.col-md-12 {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>OUR MENU</h1>
+
+<div class="col-lg-4 col-md-6">
+	<div id=box1 >
+		<div id=item1>Chicken</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+	<div id=box2 >
+		<div id=item2>Beef</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+	<div id=box3 >
+		<div id=item3>Sushi</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
+	</div>
+</div>
+
+</body>
+</html>
